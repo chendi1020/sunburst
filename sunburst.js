@@ -151,7 +151,8 @@ function sunburstDraw(scope, element) {
     .style("height", radius + "px")
     .style("text-align", "center")
     .style("font-size", "11px")
-    .style("color", "#666");
+    .style("color", "#666")
+    .style("z-index", "-1");
 
 
 
