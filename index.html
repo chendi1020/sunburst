@@ -25,7 +25,8 @@
     <!-- visualization -->
     <h2>Visualization</h2>
     <p>Hover for data summary, click on visualization to reset summary.</p>
-
+    <p>Select example: <select ng-options="example for example in sunburst.examples" ng-model="sunburst.exampleSelected" ng-change="sunburst.selectExample(sunburst.exampleSelected)"></select></p>
+   
     <div class="visualization">
       <sunburst data="sunburst.data"></sunburst>
     </div>
@@ -51,7 +52,6 @@
       <p>
         This is a variation of the original <a href="http://bl.ocks.org/kerryrodden/7090426" target="_blank">sunburst sequence</a>. A major improvement to the original vis is to organize the code base and draw the D3 components (breadcrumbs, sunburst,
         legend) from a single HTML <code>div</code> tag, and to dynamically assign color and legend scales.
-
       </p>
       <p>
         The other improvement is generalizing and conventionalizing data inputs. The input requires a simple tabular schema of <code>sequence, stage, node, value</code> (see below) and the program will parse the data into a JSON graph.</p>
@@ -84,6 +84,7 @@
       <a href="http://www.linkedin.com/in/chrisrzhou" target="_blank"><i class="fa fa-linkedin"></i></a>
     </p>
   </footer>
+
 
   <!-- scripts -->
   <script src="http://code.angularjs.org/1.3.5/angular.js"></script>
