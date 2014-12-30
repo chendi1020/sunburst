@@ -25,39 +25,43 @@
     <!-- visualization -->
     <h2>Visualization</h2>
     <p>Hover for data summary, click on visualization to reset summary.</p>
-    <input id="fileUpload" type="file" on-read-file="sunburst.getData($fileContent)" />
+
     <div class="visualization">
       <sunburst data="sunburst.data"></sunburst>
     </div>
+
+    <p>A sunburst visualization helps track population changes from initial states over lifecycles e.g. product churn rates, product conversions.</p>
+    <p>For custom testing, load up a file conforming to the data schema (see details below) or you can test out the following sample files (fake data):</p>
+    <ul>
+      <li><a href="data_android_os_conversion.csv" target="_blank">Android OS Conversions</a>
+      </li>
+      <li><a href="data_netflix_churn.csv" target="_blank">Netflix Churn</a>
+      </li>
+      <li><a href="data_page_clicks.csv" target="_blank">Page Clicks</a>
+      </li>
+    </ul>
+    <input id="fileUpload" type="file" on-read-file="sunburst.getData($fileContent)" />
     <hr />
+
+
 
     <!-- details -->
     <div class="Details">
       <h2>Details</h2>
       <p>
-      This is a variation of the original <a href="http://bl.ocks.org/kerryrodden/7090426" target="_blank">sunburst sequence</a>. 
-      A major improvement to the original vis is to organize the code base and draw theD3 components (breadcrumbs, sunburst, legend) from a single HTML <code>div</code> tag, and to dynamically assign color and legend scales.
-        
+        This is a variation of the original <a href="http://bl.ocks.org/kerryrodden/7090426" target="_blank">sunburst sequence</a>. A major improvement to the original vis is to organize the code base and draw the D3 components (breadcrumbs, sunburst,
+        legend) from a single HTML <code>div</code> tag, and to dynamically assign color and legend scales.
+
       </p>
       <p>
-      The other improvement is generalizing and conventionalizing data inputs. 
-      The input requires a simple tabular schema of <code>sequence, stage, node, value</code>(see below) and the program will parse the data into a JSON graph.</p>
-      <p>The design of the data input therefore makes the visualization more useable on relational database queries, as you can see in the examples provided below.
-      The CSV data can be
-        unsorted but it must <em>NOT</em> contain a header, and has to conform to the following data column requirements.
-        </p>
+        The other improvement is generalizing and conventionalizing data inputs. The input requires a simple tabular schema of <code>sequence, stage, node, value</code> (see below) and the program will parse the data into a JSON graph.</p>
+      <p>The design of the data input therefore makes the visualization more useable on relational database queries. The CSV data can be unsorted but it must <em>NOT</em> contain a header, and has to conform to the following data column requirements.
+      </p>
       <ul>
         <li><code>sequence (int/string):</code> an ordered sequence that clearly defines the grouping of nodes.</li>
         <li><code>stage (int): </code>the index/order of nodes in a given sequence.</li>
         <li><code>node (int/string): </code>the data name of the node.</li>
         <li><code>value (int): </code>the value at each stage of a given sequence. Only the final stage value in a given sequence is used in this visualization.</li>
-      </ul>
-      <p>For custom testing, load up a file conforming to the data schema described above or you can test out the following sample files:</p>
-      <ul>
-        <li><a href="data1.csv" target="_blank">Sample 1</a></li>
-        <li><a href="data2.csv" target="_blank">Sample 2</a></li>
-        <li><a href="data3.csv" target="_blank">Sample 3</a></li>
-        <li><a href="data4.csv" target="_blank">Sample 4</a></li>
       </ul>
       <hr />
     </div>
@@ -73,7 +77,7 @@
 
   <!-- footer -->
   <footer>
-    <p><a href="https://gist.github.com/chrisrzhou/4a41fe71b9be79ec1479" target="_blank">D3 Sunburst Sequence</a> by chrisrzhou, 2014-12-29
+    <p><a href="https://gist.github.com/chrisrzhou/d5bdd8546f64ca0e4366" target="_blank">D3 Sunburst Sequence</a> by chrisrzhou, 2014-12-29
       <br />
       <a href="http://github.com/chrisrzhou" target="_blank"><i class="fa fa-github"></i></a> |
       <a href="http://bl.ocks.org/chrisrzhou" target="_blank"><i class="fa fa-th"></i></a> |
@@ -88,7 +92,7 @@
   <script src="sunburst.js"></script>
   <script>
     // Hack to make this example display correctly in an iframe on bl.ocks.org
-    d3.select(self.frameElement).style("height", "700px");
+    d3.select(self.frameElement).style("height", "1000px");
   </script>
 </body>
 

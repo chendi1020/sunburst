@@ -1,26 +1,26 @@
 ##Links
-- [bl.ocks](http://bl.ocks.org/chrisrzhou/6e5fa4352fb8de5ba1f4) 
-- [plunker](http://embed.plnkr.co/fumcmx/preview)
+- [bl.ocks](http://bl.ocks.org/chrisrzhou/d5bdd8546f64ca0e4366) 
+- [plunker](http://embed.plnkr.co/TgGw0V/preview)
 
 ##Description
-- This is a clone of the wonderful idea by [joeycloud](http://joeycloud.net/v/pianogram).
-- The project uses AngularJS directives for loading MusicXML files and drawing the visuals in D3.
-- Pianogram visualizes key steps in a music piece in a beautiful histogram and updates them over music measure bars (time).
-- Load any *valid uncompressed* [MusicXML](http://www.musicxml.com/) file and Pianogram will render the visualization completely using front-end Javascript.
-- Use the "music player" controls to go over measure bars in the music and visualize subsets of the data over time.
-- Hover over the piano keys for a quick summary of key steps used in the music!
+- D3 Sunburst Sequence visualizes a graph of nodes by highlight sequential progression of nodes leading up to a final value.  It is useful to visualize relative weights/percentages of a starting state to an end state (e.g. webpage redirects, product retention, subscription-based products, cashflows).
+- This is a variation of the original [sunburst sequence](http://bl.ocks.org/kerryrodden/7090426).
+- A major improvement to the original vis is to organize the code base and draw the D3 components (breadcrumbs, sunburst, legend) from a single HTML div tag, and to dynamically assign color and legend scales.
+- The other improvement is generalizing and conventionalizing data inputs. The input requires a simple tabular schema of `sequence, stage, node, value` (see below) and the program will parse the data into a JSON graph.
+- The CSV data can be unsorted but it must NOT contain a header.
+- The data input has to be a 4-column CSV conforming to the data schema of:
+  - `sequence (int/string)`: an ordered sequence that clearly defines the grouping of nodes.
+  - `stage (int)`: the index/order of nodes in a given sequence.
+  - `node (int/string)`: the data name of the node.
+  - `value (int)`: the value at each stage of a given sequence. Only the final stage value in a given sequence is used in this visualization.
 
 ##Files
-- `index.html`: Main angular app connecting D3 SVG through an angular directive <pianogram>.
-- `app.js`: Main angular app file connecting the DOM view with Javascript variables.  Contains directive `onReadFile` to handle file uploads and `pianogram` to draw the D3 SVG.  Calls the `MusicService` in `music.js` to load initial data and parse MusicXML files.
-- `music.js`: Helper angular module `Music` containing useful services such as `getData`, `parseMusicXML` and `getMeasureMax` to support the angular app.
-- `pianogram.js`: This contains one function `pianogramDraw` which is a D3-oriented code to draw the D3 SVG.  It is called by the `pianogram` directive in `app.js`.
-- `samples.json`: Sample data files that feeds `ctrl.keys` used for plotting demos.
-- `styles.css`: stylesheet
+- **`index.html`**: Main angular app connecting the D3 vis through an angular directive `<sunburst>`.
+- **`app.js`**: Main angular app file connecting the DOM view with Javascript variables.  Contains directive `onReadFile` to handle file uploads and `sunburst` to re-render the D3 visualization on data updates.
+- **`sunburst.js`**: Contains the logic for drawing the D3 visualization by selecting the `angular.element` from which the vis is to be drawn.  Updates and prompts D3 to re-render the visualization when the angular data changes on file uploads.
+- **`style.css`**: stylesheet containing optional D3 classes that can be adjusted (commented out)
+- **`data.csv`**: Four CSV-data files for sample downloads and uploads to the app.
 
 ##Notes
-- Note that this pianogram does not actually simulate the total keys played in the music, it simulates the total music notes *displayed* on a music score sheet (i.e. it does not handle repeat bars)
-- Parsing of MusicXML is executed on the browser with a self-written Javascript function utilizing `angular.element`.  `parseMusicXML` function can only parse *uncompressed MusicXML* files and cannot parse the compressed version (`.mxl` files).  You can go to [MuseScore](http://www.musescore.org) to save these compressed `.mxl` files as uncompressed MusicXML files for uploading to this application.
-- This Pianogram does not handle double sharps and double flats.
-- The project originally involved handling `blackKeys` and `whiteKeys` separately but I managed to simplify this into a single `keys` array.  This way, the app can be extended for future variations and all information regarding keys can be found within the `keys` array that contains `key` objects.
+- Visualization hover can be a little glitchy if the base data does not contain very meaningful sequences i.e. smaller parent nodes that lead up to larger child nodes.
 - A big help from this [fiddle](http://jsfiddle.net/alexsuch/6aG4x/) to help implement an AngularJS `FileReader`.

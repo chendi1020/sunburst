@@ -39,7 +39,7 @@ function sunburstDraw(scope, element) {
   // margins
   var margin = {
     top: radius,
-    bottom: 0,
+    bottom: 50,
     left: radius,
     right: 0
   };
@@ -98,6 +98,8 @@ function sunburstDraw(scope, element) {
   var vis = d3.select(element[0])
     .append("div").classed("vis-continer", true)
     .style("position", "relative")
+    .style("margin-top", "20px")
+    .style("margin-bottom", "20px")
     .style("left", "50px")
     .style("height", height + 2 * b.h + "px");
 
@@ -245,7 +247,7 @@ function sunburstDraw(scope, element) {
   function drawLegend() {
     // remove "root" label from legend
     var labels = colors.domain().splice(1, colors.domain().length);
-    
+
     // create legend "pills"
     var g = legend.selectAll("g")
       .data(labels).enter()
@@ -269,6 +271,7 @@ function sunburstDraw(scope, element) {
       .attr("dy", "0.35em")
       .attr("text-anchor", "middle")
       .attr("fill", "white")
+      .attr("font-size", "10px")
       .attr("font-weight", 600)
       .text(function(d) {
         return d;
@@ -379,6 +382,7 @@ function sunburstDraw(scope, element) {
       .attr("x", (b.w + b.t) / 2)
       .attr("y", b.h / 2)
       .attr("dy", "0.35em")
+      .attr("font-size", "10px")
       .attr("text-anchor", "middle")
       .text(function(d) {
         return d.name;

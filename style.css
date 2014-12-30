@@ -47,7 +47,6 @@ pre {
   font-size: 9px;
   overflow-y: scroll;
 }
-
 /* Customizable classes used in D3 vis, uncomment to customize
 .vis-container {
   position: relative;
