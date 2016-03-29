@@ -12,11 +12,10 @@
 
     // function init
     function init() {
-      // initialize controller variables
+      // initialize controller variablesS
       ctrl.examples = [
-        "data_android_os_conversion",
-        "data_netflix_churn",
-        "data_page_clicks"
+        "gpa1st_2_3",
+        "gpa1st_3"
       ];
       ctrl.exampleSelected = ctrl.examples[0];
       ctrl.getData = getData;

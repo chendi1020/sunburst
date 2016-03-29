@@ -16,22 +16,22 @@ function sunburstDraw(scope, element) {
    *
    */
   // svg dimensions
-  var width = 500;
-  var height = 300;
+  var width = 800;
+  var height = 800;
   var radius = Math.min(width, height) / 2;
 
   // Breadcrumb dimensions: width, height, spacing, width of tip/tail.
   var b = {
-    w: 60,
-    h: 30,
+    w: 100,
+    h: 40,
     s: 3,
     t: 10
   };
 
   // Legend dimensions: width, height, spacing, radius of rounded rect.
   var li = {
-    w: 75,
-    h: 30,
+    w: 100,
+    h: 40,
     s: 3,
     r: 3
   };
@@ -150,7 +150,7 @@ function sunburstDraw(scope, element) {
     .style("width", radius + "px")
     .style("height", radius + "px")
     .style("text-align", "center")
-    .style("font-size", "11px")
+    .style("font-size", "18px")
     .style("color", "#666")
     .style("z-index", "-1");
 
@@ -272,7 +272,7 @@ function sunburstDraw(scope, element) {
       .attr("dy", "0.35em")
       .attr("text-anchor", "middle")
       .attr("fill", "white")
-      .attr("font-size", "10px")
+      .attr("font-size", "15px")
       .attr("font-weight", 600)
       .text(function(d) {
         return d;
@@ -382,8 +382,8 @@ function sunburstDraw(scope, element) {
       .append("text").classed("breadcrumbs-text", true)
       .attr("x", (b.w + b.t) / 2)
       .attr("y", b.h / 2)
-      .attr("dy", "0.35em")
-      .attr("font-size", "10px")
+      .attr("dy", "0.65em")
+      .attr("font-size", "15px")
       .attr("text-anchor", "middle")
       .text(function(d) {
         return d.name;
@@ -470,12 +470,7 @@ function sunburstDraw(scope, element) {
     var sequences = [];
 
     // sort the dataframe ascending by sequence (d[0]) then by stage (d[1])
-    csv.sort(function(a, b) {
-      if (a[2] === b[2]) {
-        return d3.ascending(a[0], b[0]);
-      }
-      return d3.ascending(a[1], b[1]);
-    });
+
     csv.forEach(function(record) {
       var sequence = record[0];
       if (sequences.indexOf(sequence) < 0) sequences.push(sequence);

@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 400;
   padding-top: 10px;
   padding-bottom: 100px;
@@ -23,7 +23,7 @@ footer a:hover, footer a:visited {
   color: #D2A000;
 }
 .text-small {
-  font-size: 12px;
+  font-size: 15px;
   font-style: italic;
 }
 footer {
@@ -40,11 +40,11 @@ footer {
   text-align: center;
 }
 .percentage {
-  font-size: 2em;
+  font-size: 14px;
 }
 pre {
   height: 300px;
-  font-size: 9px;
+  font-size: 15px;
   overflow-y: scroll;
 }
 /* Customizable classes used in D3 vis, uncomment to customize
@@ -72,7 +72,7 @@ pre {
 }
 .breadcrumbs-text {
   fill: white;
-  font-weight: 600;
+  font-weight: 800;
 }
 .legend-text{
   fill: red;
