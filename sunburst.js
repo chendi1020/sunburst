@@ -16,13 +16,13 @@ function sunburstDraw(scope, element) {
    *
    */
   // svg dimensions
-  var width = 700;
+  var width = 850;
   var height = 700;
   var radius = Math.min(width, height) / 2;
 
   // Breadcrumb dimensions: width, height, spacing, width of tip/tail.
   var b = {
-    w: 100,
+    w: 50,
     h: 40,
     s: 3,
     t: 10
@@ -100,7 +100,7 @@ function sunburstDraw(scope, element) {
     .style("position", "relative")
     .style("margin-top", "20px")
     .style("margin-bottom", "20px")
-    .style("left", "50px")
+    .style("left", "20px")
     .style("height", height + 2 * b.h + "px");
 
   // create and position SVG
@@ -135,7 +135,7 @@ function sunburstDraw(scope, element) {
     .attr("width", width)
     .attr("height", b.h)
     .attr("fill", "white")
-    .attr("font-weight", 600);
+    .attr("font-weight", 300);
 
   // create last breadcrumb element
   var lastCrumb = breadcrumbs
@@ -383,7 +383,7 @@ function sunburstDraw(scope, element) {
       .attr("x", (b.w + b.t) / 2)
       .attr("y", b.h / 2)
       .attr("dy", "0.65em")
-      .attr("font-size", "15px")
+      .attr("font-size", "11px")
       .attr("text-anchor", "middle")
       .text(function(d) {
         return d.name;
@@ -404,7 +404,8 @@ function sunburstDraw(scope, element) {
       .attr("dy", "0.35em")
       .attr("text-anchor", "middle")
       .attr("fill", "black")
-      .attr("font-weight", 600)
+      .attr("font-weight", 400)
+    .attr("font-size", "13px")
       .text(percentageString);
   }
 
