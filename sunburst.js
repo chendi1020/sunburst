@@ -304,7 +304,7 @@ function sunburstDraw(scope, element) {
 
     // update summary
     summary.html(
-      "Stage: " + d.depth + "<br />" +
+      "After "+d.depth+" Fall: "  + "<br />" +
       "<span class='percentage'>" + percentageString + "</span><br />" +
       d.value + " of " + totalSize + "<br />"
     );

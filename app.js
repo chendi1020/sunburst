@@ -12,10 +12,11 @@
 
     // function init
     function init() {
-      // initialize controller variablesS
+      // initialize controller variablSesS
       ctrl.examples = [
-        "gpa1st_2_3",
-        "gpa1st_3"
+        "gpa1st_2_to_3",
+        "gpa1st_atleast_3",
+        "gpa1st_less_2"
       ];
       ctrl.exampleSelected = ctrl.examples[0];
       ctrl.getData = getData;
