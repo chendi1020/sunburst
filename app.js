@@ -14,9 +14,10 @@
     function init() {
       // initialize controller variablSesS
       ctrl.examples = [
-        "gpa1st_2_to_3",
-        "gpa1st_atleast_3",
-        "gpa1st_less_2"
+         "gpa1st_2to_3",
+        "gpa1st_less_2",
+       
+        "gpa1st_greater_3"
       ];
       ctrl.exampleSelected = ctrl.examples[0];
       ctrl.getData = getData;
