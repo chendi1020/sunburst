@@ -16,8 +16,8 @@ function sunburstDraw(scope, element) {
    *
    */
   // svg dimensions
-  var width = 800;
-  var height = 800;
+  var width = 700;
+  var height = 700;
   var radius = Math.min(width, height) / 2;
 
   // Breadcrumb dimensions: width, height, spacing, width of tip/tail.
