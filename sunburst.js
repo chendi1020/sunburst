@@ -59,7 +59,9 @@ function sunburstDraw(scope, element) {
    * e.g. colors, totalSize, partitions, arcs
    */
   // Mapping of nodes to colorscale.
-  var colors = d3.scale.category10();
+ // var colors = d3.scale.category20();
+    var colors= d3.scale.ordinal().range(["#d62728",  "#9467bd", "#ff7f0e","#1f77b4", "#2ca02c", "#8c564b", "#c5b0d5"]);
+    
 //manual enter color
  //   var colors = {
   //"Grad": "#2ca25f",
@@ -230,7 +232,9 @@ function sunburstDraw(scope, element) {
       });
       return output;
    })(nodes);
-    colors.domain(uniqueNames); // update domain colors
+   // var uniqueNames = ['Droupouts','Grad','Still Enro','Not Enroll','GPA:<2','GPA:2 to 3','GPA:>3'];
+      var uniqueNames1=uniqueNames.sort();
+    colors.domain(uniqueNames1); // update domain colors
 
     // create path based on nodes
     var path = sunburst.data([json]).selectAll("path")
@@ -257,7 +261,7 @@ function sunburstDraw(scope, element) {
   // helper function to draw legend
   function drawLegend() {
     // remove "root" label from legend
-    var labels = colors.domain().splice(1, colors.domain().length);
+    var labels = colors.domain().splice(0, colors.domain().length-1);
     //  var labels=d3.entries(colors);
 
     // create legend "pills"

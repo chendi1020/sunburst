@@ -33,7 +33,7 @@
 601,9,GPA:2 to 3,0
 601,10,GPA:2 to 3,0
 601,11,GPA:2 to 3,0
-601,12,Still Enro,6
+601,12,Still Enroll,6
 602,1,GPA:<2,0
 602,2,GPA:2 to 3,0
 602,3,GPA:2 to 3,0
@@ -79,7 +79,7 @@
 605,9,GPA:2 to 3,0
 605,10,GPA:2 to 3,0
 605,11,Not Enroll,0
-605,12,Still Enro,3
+605,12,Still Enroll,3
 606,1,GPA:<2,0
 606,2,GPA:2 to 3,0
 606,3,GPA:2 to 3,0
@@ -122,7 +122,7 @@
 609,9,GPA:<2,0
 609,10,GPA:2 to 3,0
 609,11,GPA:2 to 3,0
-609,12,Still Enro,1
+609,12,Still Enroll,1
 610,1,GPA:<2,0
 610,2,GPA:2 to 3,0
 610,3,GPA:2 to 3,0
@@ -154,7 +154,7 @@
 612,9,Not Enroll,0
 612,10,Not Enroll,0
 612,11,Not Enroll,0
-612,12,Still Enro,1
+612,12,Still Enroll,1
 613,1,GPA:<2,0
 613,2,GPA:2 to 3,0
 613,3,GPA:2 to 3,0
@@ -201,7 +201,7 @@
 617,9,GPA:2 to 3,0
 617,10,GPA:2 to 3,0
 617,11,Not Enroll,0
-617,12,Still Enro,1
+617,12,Still Enroll,1
 618,1,GPA:<2,0
 618,2,GPA:2 to 3,0
 618,3,GPA:2 to 3,0
@@ -213,7 +213,7 @@
 618,9,Not Enroll,0
 618,10,Not Enroll,0
 618,11,GPA:2 to 3,0
-618,12,Still Enro,1
+618,12,Still Enroll,1
 619,1,GPA:<2,0
 619,2,GPA:2 to 3,0
 619,3,GPA:2 to 3,0
@@ -268,7 +268,7 @@
 624,9,GPA:2 to 3,0
 624,10,GPA:2 to 3,0
 624,11,GPA:2 to 3,0
-624,12,Still Enro,1
+624,12,Still Enroll,1
 625,1,GPA:<2,0
 625,2,GPA:2 to 3,0
 625,3,GPA:2 to 3,0
@@ -338,7 +338,7 @@
 632,9,GPA:<2,0
 632,10,Not Enroll,0
 632,11,Not Enroll,0
-632,12,Still Enro,1
+632,12,Still Enroll,1
 633,1,GPA:<2,0
 633,2,GPA:2 to 3,0
 633,3,GPA:2 to 3,0
@@ -361,7 +361,7 @@
 634,9,GPA:2 to 3,0
 634,10,Not Enroll,0
 634,11,Not Enroll,0
-634,12,Still Enro,1
+634,12,Still Enroll,1
 635,1,GPA:<2,0
 635,2,GPA:2 to 3,0
 635,3,GPA:2 to 3,0
@@ -465,7 +465,7 @@
 645,9,GPA:2 to 3,0
 645,10,GPA:<2,0
 645,11,GPA:2 to 3,0
-645,12,Still Enro,1
+645,12,Still Enroll,1
 646,1,GPA:<2,0
 646,2,GPA:2 to 3,0
 646,3,GPA:2 to 3,0
@@ -488,7 +488,7 @@
 647,9,GPA:2 to 3,0
 647,10,GPA:2 to 3,0
 647,11,Not Enroll,0
-647,12,Still Enro,1
+647,12,Still Enroll,1
 648,1,GPA:<2,0
 648,2,GPA:2 to 3,0
 648,3,GPA:2 to 3,0
@@ -527,7 +527,7 @@
 651,9,GPA:2 to 3,0
 651,10,GPA:2 to 3,0
 651,11,GPA:2 to 3,0
-651,12,Still Enro,1
+651,12,Still Enroll,1
 652,1,GPA:<2,0
 652,2,GPA:2 to 3,0
 652,3,GPA:2 to 3,0
@@ -615,7 +615,7 @@
 661,9,Not Enroll,0
 661,10,Not Enroll,0
 661,11,GPA:2 to 3,0
-661,12,Still Enro,1
+661,12,Still Enroll,1
 662,1,GPA:<2,0
 662,2,GPA:2 to 3,0
 662,3,GPA:2 to 3,0
@@ -639,7 +639,7 @@
 663,9,GPA:2 to 3,0
 663,10,GPA:2 to 3,0
 663,11,GPA:2 to 3,0
-663,12,Still Enro,1
+663,12,Still Enroll,1
 664,1,GPA:<2,0
 664,2,GPA:2 to 3,0
 664,3,GPA:<2,0
@@ -707,7 +707,7 @@
 670,9,GPA:2 to 3,0
 670,10,GPA:2 to 3,0
 670,11,GPA:2 to 3,0
-670,12,Still Enro,1
+670,12,Still Enroll,1
 671,1,GPA:<2,0
 671,2,GPA:2 to 3,0
 671,3,GPA:<2,0
@@ -746,7 +746,7 @@
 674,9,Not Enroll,0
 674,10,Not Enroll,0
 674,11,Not Enroll,0
-674,12,Still Enro,1
+674,12,Still Enroll,1
 675,1,GPA:<2,0
 675,2,GPA:2 to 3,0
 675,3,GPA:<2,0
@@ -791,7 +791,7 @@
 680,9,GPA:2 to 3,0
 680,10,GPA:2 to 3,0
 680,11,GPA:2 to 3,0
-680,12,Still Enro,1
+680,12,Still Enroll,1
 681,1,GPA:<2,0
 681,2,GPA:2 to 3,0
 681,3,GPA:>3,0
@@ -862,7 +862,7 @@
 688,9,GPA:>3,0
 688,10,Not Enroll,0
 688,11,Not Enroll,0
-688,12,Still Enro,1
+688,12,Still Enroll,1
 689,1,GPA:<2,0
 689,2,GPA:2 to 3,0
 689,3,GPA:>3,0
@@ -891,7 +891,7 @@
 691,9,GPA:>3,0
 691,10,GPA:2 to 3,0
 691,11,GPA:2 to 3,0
-691,12,Still Enro,1
+691,12,Still Enroll,1
 692,1,GPA:<2,0
 692,2,GPA:2 to 3,0
 692,3,Dropouts,8
@@ -936,7 +936,7 @@
 696,9,GPA:2 to 3,0
 696,10,GPA:2 to 3,0
 696,11,GPA:2 to 3,0
-696,12,Still Enro,2
+696,12,Still Enroll,2
 697,1,GPA:<2,0
 697,2,GPA:2 to 3,0
 697,3,Not Enroll,0
@@ -959,7 +959,7 @@
 698,9,GPA:2 to 3,0
 698,10,GPA:>3,0
 698,11,GPA:>3,0
-698,12,Still Enro,1
+698,12,Still Enroll,1
 699,1,GPA:<2,0
 699,2,GPA:2 to 3,0
 699,3,Not Enroll,0
@@ -971,7 +971,7 @@
 699,9,GPA:>3,0
 699,10,GPA:2 to 3,0
 699,11,GPA:>3,0
-699,12,Still Enro,1
+699,12,Still Enroll,1
 700,1,GPA:<2,0
 700,2,GPA:<2,0
 700,3,GPA:2 to 3,0
@@ -1007,7 +1007,7 @@
 702,9,GPA:2 to 3,0
 702,10,GPA:2 to 3,0
 702,11,GPA:2 to 3,0
-702,12,Still Enro,2
+702,12,Still Enroll,2
 703,1,GPA:<2,0
 703,2,GPA:<2,0
 703,3,GPA:2 to 3,0
@@ -1108,7 +1108,7 @@
 712,9,Not Enroll,0
 712,10,Not Enroll,0
 712,11,GPA:2 to 3,0
-712,12,Still Enro,1
+712,12,Still Enroll,1
 713,1,GPA:<2,0
 713,2,GPA:<2,0
 713,3,GPA:2 to 3,0
@@ -1200,7 +1200,7 @@
 722,9,GPA:<2,0
 722,10,GPA:<2,0
 722,11,Not Enroll,0
-722,12,Still Enro,1
+722,12,Still Enroll,1
 723,1,GPA:<2,0
 723,2,GPA:<2,0
 723,3,GPA:2 to 3,0
@@ -1274,7 +1274,7 @@
 730,9,GPA:<2,0
 730,10,GPA:2 to 3,0
 730,11,GPA:2 to 3,0
-730,12,Still Enro,1
+730,12,Still Enroll,1
 731,1,GPA:<2,0
 731,2,GPA:<2,0
 731,3,GPA:2 to 3,0
@@ -1338,7 +1338,7 @@
 738,9,GPA:2 to 3,0
 738,10,GPA:2 to 3,0
 738,11,GPA:2 to 3,0
-738,12,Still Enro,2
+738,12,Still Enroll,2
 739,1,GPA:<2,0
 739,2,GPA:<2,0
 739,3,GPA:<2,0
@@ -1426,7 +1426,7 @@
 747,9,GPA:<2,0
 747,10,GPA:<2,0
 747,11,Not Enroll,0
-747,12,Still Enro,1
+747,12,Still Enroll,1
 748,1,GPA:<2,0
 748,2,GPA:<2,0
 748,3,GPA:<2,0
@@ -1474,7 +1474,7 @@
 752,9,GPA:2 to 3,0
 752,10,GPA:2 to 3,0
 752,11,GPA:2 to 3,0
-752,12,Still Enro,1
+752,12,Still Enroll,1
 753,1,GPA:<2,0
 753,2,GPA:<2,0
 753,3,GPA:<2,0
@@ -1497,7 +1497,7 @@
 754,9,GPA:2 to 3,0
 754,10,GPA:2 to 3,0
 754,11,Not Enroll,0
-754,12,Still Enro,1
+754,12,Still Enroll,1
 755,1,GPA:<2,0
 755,2,GPA:<2,0
 755,3,GPA:<2,0
@@ -1509,7 +1509,7 @@
 755,9,GPA:2 to 3,0
 755,10,GPA:<2,0
 755,11,Not Enroll,0
-755,12,Still Enro,1
+755,12,Still Enroll,1
 756,1,GPA:<2,0
 756,2,GPA:<2,0
 756,3,GPA:<2,0
@@ -1585,7 +1585,7 @@
 763,9,GPA:2 to 3,0
 763,10,GPA:2 to 3,0
 763,11,Not Enroll,0
-763,12,Still Enro,1
+763,12,Still Enroll,1
 764,1,GPA:<2,0
 764,2,GPA:<2,0
 764,3,GPA:<2,0
@@ -1597,7 +1597,7 @@
 764,9,GPA:2 to 3,0
 764,10,GPA:2 to 3,0
 764,11,GPA:2 to 3,0
-764,12,Still Enro,1
+764,12,Still Enroll,1
 765,1,GPA:<2,0
 765,2,GPA:<2,0
 765,3,GPA:<2,0
@@ -1618,7 +1618,7 @@
 766,9,Not Enroll,0
 766,10,Not Enroll,0
 766,11,Not Enroll,0
-766,12,Still Enro,1
+766,12,Still Enroll,1
 767,1,GPA:<2,0
 767,2,GPA:<2,0
 767,3,GPA:<2,0
@@ -1636,7 +1636,7 @@
 768,9,GPA:2 to 3,0
 768,10,GPA:2 to 3,0
 768,11,GPA:2 to 3,0
-768,12,Still Enro,1
+768,12,Still Enroll,1
 769,1,GPA:<2,0
 769,2,GPA:<2,0
 769,3,GPA:<2,0
@@ -1648,7 +1648,7 @@
 769,9,GPA:<2,0
 769,10,Not Enroll,0
 769,11,Not Enroll,0
-769,12,Still Enro,1
+769,12,Still Enroll,1
 770,1,GPA:<2,0
 770,2,GPA:<2,0
 770,3,GPA:<2,0
@@ -1688,7 +1688,7 @@
 773,9,Not Enroll,0
 773,10,Not Enroll,0
 773,11,Not Enroll,0
-773,12,Still Enro,1
+773,12,Still Enroll,1
 774,1,GPA:<2,0
 774,2,GPA:<2,0
 774,3,GPA:<2,0
@@ -1707,7 +1707,7 @@
 775,9,GPA:2 to 3,0
 775,10,GPA:2 to 3,0
 775,11,GPA:2 to 3,0
-775,12,Still Enro,1
+775,12,Still Enroll,1
 776,1,GPA:<2,0
 776,2,GPA:<2,0
 776,3,GPA:<2,0
@@ -1742,7 +1742,7 @@
 779,9,GPA:<2,0
 779,10,Not Enroll,0
 779,11,Not Enroll,0
-779,12,Still Enro,1
+779,12,Still Enroll,1
 780,1,GPA:<2,0
 780,2,GPA:<2,0
 780,3,GPA:<2,0
@@ -1760,7 +1760,7 @@
 781,9,Not Enroll,0
 781,10,Not Enroll,0
 781,11,Not Enroll,0
-781,12,Still Enro,1
+781,12,Still Enroll,1
 782,1,GPA:<2,0
 782,2,GPA:<2,0
 782,3,GPA:<2,0
@@ -1789,7 +1789,7 @@
 784,9,GPA:<2,0
 784,10,GPA:2 to 3,0
 784,11,GPA:2 to 3,0
-784,12,Still Enro,1
+784,12,Still Enroll,1
 785,1,GPA:<2,0
 785,2,GPA:<2,0
 785,3,GPA:<2,0
@@ -1801,7 +1801,7 @@
 785,9,Not Enroll,0
 785,10,Not Enroll,0
 785,11,GPA:<2,0
-785,12,Still Enro,1
+785,12,Still Enroll,1
 786,1,GPA:<2,0
 786,2,GPA:<2,0
 786,3,GPA:<2,0
@@ -1831,7 +1831,7 @@
 788,9,GPA:2 to 3,0
 788,10,GPA:2 to 3,0
 788,11,GPA:2 to 3,0
-788,12,Still Enro,1
+788,12,Still Enroll,1
 789,1,GPA:<2,0
 789,2,GPA:<2,0
 789,3,GPA:<2,0
@@ -1850,7 +1850,7 @@
 790,9,GPA:2 to 3,0
 790,10,GPA:2 to 3,0
 790,11,GPA:2 to 3,0
-790,12,Still Enro,1
+790,12,Still Enroll,1
 791,1,GPA:<2,0
 791,2,GPA:<2,0
 791,3,GPA:<2,0
@@ -1886,7 +1886,7 @@
 794,9,GPA:2 to 3,0
 794,10,GPA:2 to 3,0
 794,11,Not Enroll,0
-794,12,Still Enro,1
+794,12,Still Enroll,1
 795,1,GPA:<2,0
 795,2,GPA:<2,0
 795,3,Not Enroll,0
@@ -1898,7 +1898,7 @@
 795,9,GPA:2 to 3,0
 795,10,GPA:2 to 3,0
 795,11,GPA:2 to 3,0
-795,12,Still Enro,1
+795,12,Still Enroll,1
 796,1,GPA:<2,0
 796,2,GPA:<2,0
 796,3,Not Enroll,0
@@ -1957,7 +1957,7 @@
 801,9,GPA:<2,0
 801,10,GPA:<2,0
 801,11,Not Enroll,0
-801,12,Still Enro,1
+801,12,Still Enroll,1
 802,1,GPA:<2,0
 802,2,GPA:<2,0
 802,3,Not Enroll,0
@@ -1976,7 +1976,7 @@
 803,9,GPA:2 to 3,0
 803,10,GPA:<2,0
 803,11,GPA:<2,0
-803,12,Still Enro,1
+803,12,Still Enroll,1
 804,1,GPA:<2,0
 804,2,GPA:<2,0
 804,3,Not Enroll,0
@@ -1988,7 +1988,7 @@
 804,9,Not Enroll,0
 804,10,Not Enroll,0
 804,11,GPA:2 to 3,0
-804,12,Still Enro,1
+804,12,Still Enroll,1
 805,1,GPA:<2,0
 805,2,GPA:<2,0
 805,3,Not Enroll,0
@@ -2000,7 +2000,7 @@
 805,9,Not Enroll,0
 805,10,Not Enroll,0
 805,11,Not Enroll,0
-805,12,Still Enro,1
+805,12,Still Enroll,1
 806,1,GPA:<2,0
 806,2,GPA:<2,0
 806,3,Not Enroll,0
@@ -2029,7 +2029,7 @@
 808,9,Not Enroll,0
 808,10,Not Enroll,0
 808,11,Not Enroll,0
-808,12,Still Enro,1
+808,12,Still Enroll,1
 809,1,GPA:<2,0
 809,2,GPA:<2,0
 809,3,Not Enroll,0
@@ -2046,7 +2046,7 @@
 810,9,GPA:2 to 3,0
 810,10,GPA:2 to 3,0
 810,11,GPA:2 to 3,0
-810,12,Still Enro,1
+810,12,Still Enroll,1
 811,1,GPA:<2,0
 811,2,GPA:<2,0
 811,3,Not Enroll,0
@@ -2076,7 +2076,7 @@
 813,9,GPA:2 to 3,0
 813,10,GPA:2 to 3,0
 813,11,GPA:2 to 3,0
-813,12,Still Enro,1
+813,12,Still Enroll,1
 814,1,GPA:<2,0
 814,2,GPA:<2,0
 814,3,Not Enroll,0
@@ -2099,7 +2099,7 @@
 815,9,GPA:>3,0
 815,10,GPA:>3,0
 815,11,GPA:>3,0
-815,12,Still Enro,1
+815,12,Still Enroll,1
 816,1,GPA:<2,0
 816,2,GPA:<2,0
 816,3,Not Enroll,0
@@ -2246,7 +2246,7 @@
 834,9,GPA:2 to 3,0
 834,10,GPA:2 to 3,0
 834,11,GPA:2 to 3,0
-834,12,Still Enro,1
+834,12,Still Enroll,1
 835,1,GPA:<2,0
 835,2,Not Enroll,0
 835,3,Not Enroll,0
@@ -2285,5 +2285,5 @@
 838,9,Not Enroll,0
 838,10,Not Enroll,0
 838,11,Not Enroll,0
-838,12,Still Enro,1
+838,12,Still Enroll,1
 839,1,Dropouts,43
