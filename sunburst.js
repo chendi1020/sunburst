@@ -22,7 +22,7 @@ function sunburstDraw(scope, element) {
 
   // Breadcrumb dimensions: width, height, spacing, width of tip/tail.
   var b = {
-    w: 50,
+    w: 60,
     h: 40,
     s: 3,
     t: 10
@@ -60,6 +60,16 @@ function sunburstDraw(scope, element) {
    */
   // Mapping of nodes to colorscale.
   var colors = d3.scale.category10();
+//manual enter color
+ //   var colors = {
+  //"Grad": "#2ca25f",
+  //"Still Enro": "#fff7bc",
+  //"Not Enroll": "#fdae6b",
+  //"Droupouts": "#e34a33",
+  //"GPA:2 to 3": "#8856a7",
+  //"GPA:<2": "#c994c7",
+  //"GPA:>3": "#2b8cbe"
+ //};
 
   // Total size of all nodes, to be used later when data is loaded
   var totalSize = 0;
@@ -212,14 +222,14 @@ function sunburstDraw(scope, element) {
         return (d.dx > 0.005); // 0.005 radians = 0.29 degrees
       });
 
-    // this section is required to update the colors.domain() every time the data updates
+     //this section is required to update the colors.domain() every time the data updates
     var uniqueNames = (function(a) {
-      var output = [];
+     var output = [];
       a.forEach(function(d) {
-        if (output.indexOf(d.name) === -1) output.push(d.name);
+       if (output.indexOf(d.name) === -1) output.push(d.name);
       });
       return output;
-    })(nodes);
+   })(nodes);
     colors.domain(uniqueNames); // update domain colors
 
     // create path based on nodes
@@ -248,6 +258,7 @@ function sunburstDraw(scope, element) {
   function drawLegend() {
     // remove "root" label from legend
     var labels = colors.domain().splice(1, colors.domain().length);
+    //  var labels=d3.entries(colors);
 
     // create legend "pills"
     var g = legend.selectAll("g")
@@ -304,9 +315,12 @@ function sunburstDraw(scope, element) {
 
     // update summary
     summary.html(
-      "After "+d.depth+" Term : "  + "<br />" +
-      "<span class='percentage'>" + percentageString + "</span><br />" +
-      d.value + " of " + totalSize + "<br />"
+       "<span class='percentage'>"+"After "+d.depth+" Term "  + "</span><br />"+
+      "<span class='percentage'>"+"Following the path"+ "</span><br />"+
+       percentageString +  "<br />" +
+      d.value + " of " + totalSize   +"<br />"+
+      "<span class='percentage'>" + "End with "+d.name +  "</span><br />"
+     
     );
 
     // display summary and breadcrumbs if hidden
