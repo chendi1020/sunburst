@@ -25,7 +25,8 @@
     <!-- visualization -->
      <p>Visualization shows the students cumulative GPA group after each fall and graduation status by first term GPA group</p>
     <p>Hover for data summary, click on visualization to reset summary.</p>
-    <p>Select 1st GPAS Group: <select ng-options="example for example in sunburst.examples" ng-model="sunburst.exampleSelected" ng-change="sunburst.selectExample(sunburst.exampleSelected)"></select></p>
+    <p>Select 1st Term GPA Group: 
+        <select ng-options="example for example in sunburst.examples" ng-model="sunburst.exampleSelected" ng-change="sunburst.selectExample(sunburst.exampleSelected)"></select></p>
    
     <div class="visualization">
       <sunburst data="sunburst.data"></sunburst>

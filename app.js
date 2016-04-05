@@ -14,10 +14,10 @@
     function init() {
       // initialize controller variablSesS
       ctrl.examples = [
-         "gpa1st_2to_3",
-        "gpa1st_less_2",
-       
-        "gpa1st_greater_3"
+        
+        "GPA between 2 to 3",
+        "GPA less than 2",
+       "GPA greater 3"
       ];
       ctrl.exampleSelected = ctrl.examples[0];
       ctrl.getData = getData;
@@ -34,7 +34,7 @@
 
     // function selectExample
     function selectExample(item) {
-      var file = item + ".csv";
+      var file = item.replace(/\s+/g, '')+ ".csv";
       $http.get(file).success(function(data) {
         ctrl.data = data;
       });
